@@ -130,12 +130,18 @@
     display: grid;
     align-items: center; 
     grid-template-columns: 110px 100px 100px;
+    text-decoration: none;
 }
 
 .linkname
 {
     color:white;
     white-space: nowrap;
+}
+
+a:link
+{
+    text-decoration: none;
 }
 
 .bi-box-arrow-up-right
