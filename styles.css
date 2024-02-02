@@ -1,0 +1,253 @@
+
+.navbar
+{
+    position: relative;
+    border-radius: 0px;
+    color: rgb(137, 137, 137) !important;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo
+{
+    position: relative;
+    width:200px;
+    left:50%;
+    align-items: center;
+    margin-left: -103px !important;
+    justify-content: center;
+}
+
+.container
+{
+    width: 540px;
+    max-width: 540px;
+    position: relative;
+    display: fixed;
+    padding:18px;
+    padding-bottom:25px;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 17%) !important;
+    transition: transform .2s; /* Animation */
+}
+
+.container:hover
+{
+    cursor: pointer !important;
+    transform: scale(1.03);
+}
+
+.first
+{
+    margin-top:30px;
+}
+
+.first:hover
+{
+    transform: scale(1);
+    cursor: pointer;
+}
+
+.coverart
+{
+    opacity: 1;
+    padding: 20px;
+    border-radius: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform .2s; /* Animation */
+}
+
+.coverart:hover
+{
+    transform: scale(1.1);
+    cursor: pointer !important;;
+}
+
+
+.songtitle, .artistname, .releasedate
+{
+    opacity: 1;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    color:white;
+}
+
+.presave
+{
+    position: relative;
+    left:50%;
+    height:80px;
+    margin-left: -108px;
+    opacity: 1;
+    border-radius: 15px;
+    font-family: 'Poppins', sans-serif;
+    align-items: center !important;
+    text-align: center !important;
+    align-content: center !important;
+    background-color:rgb(255, 48, 186) !important;
+    border-color:rgb(255, 66, 192) !important;
+    transition: transform .2s !important; /* Animation */
+}
+
+.btn:hover
+{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.songtitle
+{
+    opacity: 1;
+    padding-bottom: 5px;
+}
+
+.navbar
+{
+    margin-bottom:10px;
+}
+
+.artistname
+{
+    font-family: 'Poppins', thin;
+}
+
+.releasedate
+{
+    font-family: 'Poppins', thin;
+}
+
+.linkbox
+{
+    max-width:10px;
+    height:70px;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 110px 100px 100px;
+}
+
+.linkname
+{
+    color:white;
+    white-space: nowrap;
+}
+
+.bi-box-arrow-up-right
+{
+    display: inline-block;
+    position: absolute;
+    align-items: right;
+    margin-left:28rem;
+}
+
+.bi-spotify
+{
+    border-radius: 10px;
+    background-color: black;
+    padding:10px;
+    color:rgb(119, 234, 123);
+}
+
+.bi-cloud-fill
+{
+    border-radius: 10px;
+    background-color: black;
+    padding:10px;
+    color:rgb(255, 157, 0);
+}
+
+.bi-youtube
+{
+    border-radius: 10px;
+    background-color: black;
+    padding:10px;
+    color:rgb(238, 37, 37);
+}
+
+.bi-youtube2
+{
+    border-radius: 10px;
+    background-color: black;
+    padding:10px;
+    color:rgb(37, 104, 238);
+}
+
+.bi-apple
+{
+    border-radius: 10px;
+    background-color: black;
+    padding:10px;
+    color:rgb(232, 232, 232);
+}
+
+.bi-itunes
+{
+    border-radius: 10px;
+    background-color: black;
+    padding:10px;
+    color:rgb(160, 160, 160);
+}
+
+.bi-deezer
+{
+    border-radius: 10px;
+    background-color: black;
+    padding:10px;
+    color:rgb(186, 29, 248);
+}
+
+@media only screen {
+    body, html
+    {
+        height:100%;
+        max-width: 530px;
+        margin: 0 auto !important; 
+        float: none !important; 
+        height: 100%;
+        width: 100%;
+    }
+    }
+
+    .background
+    {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        margin: 0 auto !important; 
+        float: none !important; 
+        background-image: url("/images/cover.png");
+        filter: blur(1);
+        background-position: top;
+        background-repeat: repeat;
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+        filter: blur(10px);  
+    }
+
+* {
+    box-sizing: border-box;
+    }
+
+.footer
+{
+    font-size:x-large;
+    color:white;
+    position: relative;
+    margin-left: -190px;
+    left:50%;
+    right:50%;
+    max-width:10px;
+    height:70px;
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 110px 100px 100px;
+    white-space: nowrap;
+}
